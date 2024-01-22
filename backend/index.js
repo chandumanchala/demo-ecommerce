@@ -13,7 +13,7 @@ app.use(cors());
 //database connection with mongodb
 
 mongoose.connect(
-  "mongodb+srv://manchalachandu143:DXHwavdsh0G7yHu4@cluster0.auk3i3o.mongodb.net/e-commerce"
+  `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.auk3i3o.mongodb.net/${process.env.MONGO_DATABASE}?retryWrites=true&w=majority`
 );
 
 //api connection

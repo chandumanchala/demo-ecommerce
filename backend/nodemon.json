@@ -1,0 +1,8 @@
+{
+  "env":{
+    "MONGO_USER":"manchalachandu143",
+    "MONGO_PASSWORD":"DXHwavdsh0G7yHu4",
+    "MONGO_DATABASE":"e-commerce"
+
+  }
+}
